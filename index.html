@@ -27,7 +27,7 @@
                     <form class="d-flex" role="search">
 
 
-                        <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                        <button type="button" class="btn btn-success me-2" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Create a New Post
                         </button>
@@ -38,22 +38,36 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Caption:
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="recipient-name" class="col-form-label">Caption:</label>
+                                                <textarea type="text " class="form-control" id="recipient-name"
+                                                    placeholder="Add the caption of your post here"></textarea>
+                                            </div>
+                                            <div class="mb-1">
+                                                <button class="btn btn-outline-dark" type="button">
+                                                    <i class="fa-solid fa-camera"></i>
+                                                </button>
+                                                <button class="btn btn-outline-dark" type="button">
+
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </button>
+                                            </div>
+                                        </form>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
                                             data-bs-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Publish</button>
+                                        <button type="button" class="btn btn-success">Publish</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
 
                         <div class="btn-group">
                             <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
@@ -65,7 +79,7 @@
                                 <li><a class="dropdown-item" href="#">Accesibility</a></li>
                                 <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
                                 <li><a class="dropdown-item" href="#">_____________________</a></li>
-                                <li><a class="dropdown-item" href="#">Log out </a></li>
+                                <li><a class="dropdown-item text-danger" href="#">Log out </a></li>
                             </ul>
                         </div>
                     </form>
@@ -137,7 +151,7 @@
             </div>
             <div class="tab-pane fade justify-content-center" id="pills-profile" role="tabpanel"
                 aria-labelledby="pills-profile-tab" tabindex="0">
-                <div class="card" style="width: 22rem;">
+                <div class="card mx-auto" style="width: 22rem;">
                     <div class="card-header">
                         The Infinity Saga
                     </div>
@@ -151,7 +165,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="card" style="width: 22rem;">
+                <div class="card mx-auto" style="width: 22rem;">
                     <div class="card-header">
                         Super Heroes
                     </div>
@@ -166,7 +180,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="card" style="width: 22rem;">
+                <div class="card mx-auto" style="width: 22rem;">
                     <div class="card-header">
                         Advengers Code Red
                     </div>
